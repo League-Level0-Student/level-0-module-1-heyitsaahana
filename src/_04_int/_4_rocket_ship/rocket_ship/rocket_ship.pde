@@ -13,13 +13,15 @@ void draw() {
     fill(248, 128, 0);
     ellipse(x, y + 115, 70, 70);
     fill(255, 153, 0);
-    ellipse(x, y + 95, 35, 35);
+    ellipse(x, y + 95, 55, 55);
     fill(100, 100, 100);
     triangle(x, y + 10, x + 50, y + 100, x - 50, y + 100);
    fill(#939393);
    ellipse(105,105,200,200);
    fill(#E8F0EF);
    ellipse(75,75,50,50);
-   
+   if(y>0) {
+     y=y-15;
+   }
    
 }
